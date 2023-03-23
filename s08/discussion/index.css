@@ -1,0 +1,164 @@
+#div-1 {
+	background-color:green;
+	display: inline;
+
+}
+#span-1 {
+	background-color: purple;
+	display: none;
+	width: 200px;
+	height: 200px;
+}
+
+#span-2 {
+	background-color: red;
+	display: block;
+}
+#div-2 {
+	display: none;
+	background-color: hotpink;
+}
+
+#img {
+	display: inline-block;
+	width: 250px;
+
+	height: 250px;
+
+}
+#p-1{
+	background-color: #87CEFA;
+}
+
+#p-2{
+	background-color: rgb(255,105, 180);
+	width: 60%;
+}}
+
+#p-3{
+	background-color: yellow;
+	width: 40%;
+}
+
+.sample{
+	display: inline-block;
+	width: 30%;
+	border: 1px solid black;
+	text-align: center;
+
+}
+
+.img-float  {
+	width: 250px;
+	height: 250px;
+	float: inherit;
+}
+
+.box {
+	background-color: red;
+	border: 1px solid black;
+	margins: 5px;
+}
+
+.fifty-percent{
+	width: 50%;
+	
+}
+.ne-hundred-pixels{
+	width: 100vw;
+
+}
+.fifty-vw{
+	width: 50vw;
+}
+ .twenty-five-vh{
+ 	height: 25vh; }
+
+.parent {
+	width: 135px;
+	border: 2px solid navy;
+	font-size: 30px
+}
+.one-rem { font-size:1rem; }
+.two-rem {font-size: 2rem}
+.two-em {font-size: 2em}
+.background {
+	min-height color: 100vh;
+	background-color:gray;
+	background-image:url(https://c4.wallpaperflare.com/wallpaper/43/1003/707/anime-your-name-kimi-no-na-wa-mitsuha-miyamizu-wallpaper-preview.jpg);
+background-repeat: no repeat;
+background-size:100%;
+background-position: center top;
+background-attachment: scroll;
+}
+
+.container-bg {
+
+background-color: rgba(0, 0, 0, 0.5);
+min-height: 100vh;
+}
+
+.bg-title{
+	color: white;
+	text-align: center;
+	font-size: 5em;
+	margin: 0;
+	line-height:35rem ;
+}
+
+.parent-element {
+	background-color: skyblue;
+	padding: 50px;
+	position: relative;
+	height: 800px;
+}
+
+.child-one {
+	background-color: gray;
+	padding: 10px;}
+
+	.child-two {
+	background-color: yellow;
+	padding: 10px;
+	position: sticky;
+	top: 10px;
+}
+
+.child-three {
+	background-color: gray;
+	padding: 10px;
+}
+
+html {
+	height: 800vh;
+}
+.container {
+	position: relative;
+}
+
+.black-box {
+	position: relative;
+	z-index: 1;
+	border: 2px solid black;
+	height: 100px;
+	margin: 30px;
+}
+
+.gray-box {
+	position: absolute;
+	z-index: 3;
+	background-color: lightgray;
+	height: 60px;
+	width: 70%;
+	left: 50px;
+	top: 50px;
+}
+
+.green-box {
+	position: absolute;
+	z-index: 2;
+	background-color: lightgreen;
+	width: 35%;
+	left: 270px;
+	top: 15px;
+	height: 100px;

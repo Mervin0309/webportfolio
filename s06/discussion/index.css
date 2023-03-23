@@ -1,0 +1,44 @@
+h1{color:yellow;text-align: center;font-size: 20px;}
+.offering-item{text-transform: uppercase;}
+h3+img{ height:300px;width:300px;border-radius:150px; }
+input[reqiured]{ border-width: 2px;
+border-style:solid;
+border-color:navy;
+width:90% }
+
+section {height: 100wh;text-align: center;}
+#bootcamp-learning-list li{
+	color: #075966;
+}
+html{scroll-behavior: smooth;}
+body{
+	background-color: skyblue;
+}
+
+h2{font-size: 1.5rem;}
+ol {list-style-type: none;}
+
+form{ text-align:center;
+background-color:white;
+border-style:2px solid black;
+height:185px;
+width:25vw;border-radius;
+position:relative;
+left:37.25% }
+
+button {background-color: #cf0053;
+color:white;
+border:0;
+border-radius: 15px;
+}
+nav{background-color: white;}
+
+a:hover{
+	background-color: #b4d6de;
+}
+
+div {display: inline-block;float: right;}
+h2 ~ a, a {text-decoration: none}
+body > section > form > label {
+	color: rgb(0, 0, 128);
+}
